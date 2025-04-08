@@ -1,0 +1,10 @@
+build/
+.vscode/
+*.o
+*.dat
+*.s
+venv/
+/**/data/
+/**/images/
+/**/labels.txt
+/**/weights.pt

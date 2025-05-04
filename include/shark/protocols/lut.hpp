@@ -1,6 +1,7 @@
 #pragma once
 #include <shark/types/u64.hpp>
 #include <shark/types/span.hpp>
+#include <vector>
 
 namespace shark
 {

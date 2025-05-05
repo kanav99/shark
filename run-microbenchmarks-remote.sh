@@ -1,6 +1,5 @@
 set -e
 
-# for benchmark in relu relutruncate spline reciprocal maxpool matmul linear; do
 for benchmark in relu relutruncate spline reciprocal; do
 # for benchmark in relutruncate; do
   ./build/micro-$benchmark 2 &> /dev/null
